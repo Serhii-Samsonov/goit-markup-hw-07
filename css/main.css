@@ -644,7 +644,7 @@ body {
   display: flex;
 }
 
-.header-nav {
+.header__nav {
   display: flex;
   align-items: center;
 }
