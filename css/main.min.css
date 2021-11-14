@@ -265,7 +265,6 @@ body {
   border-radius: 2px;
   border: 2px solid #212121;
   cursor: pointer;
-  background-image: url(images/off.svg);
 }
 .modal-form-checkbox:checked + .modal-form-checkbox-label::before {
   background-color: var(--accent-color);
