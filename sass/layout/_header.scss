@@ -58,7 +58,7 @@
   color: var(--second-text-color);
 }
 
-.header-link {
+.header__nav-item__header-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -71,7 +71,7 @@
   }
 }
 
-.header-link.current::after {
+.header__nav-item__header-link.current::after {
   content: "";
   display: block;
   width: 100%;
