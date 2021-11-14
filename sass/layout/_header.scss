@@ -5,7 +5,7 @@
   align-items: center;
 }
 
-.menu-list {
+.header__menu-list {
   display: flex;
 }
 
@@ -18,18 +18,18 @@
   display: flex;
 }
 
-.header-conntacts {
+.header__header-contacts {
   display: flex;
   margin-left: auto;
   align-items: center;
 }
 
-.header-conntacts {
+.header__header__header-contacts {
   padding: 0;
   align-items: center;
 }
 
-.nav-item:not(:last-child) {
+.header__nav-item:not(:last-child) {
   margin-right: 50px;
   height: 16px;
 }
@@ -45,7 +45,7 @@
 }
 
 .header__logo {
-  margin-right: 93px;
+  padding-right: 93px;
 }
 
 .studio {
@@ -82,7 +82,7 @@
   top: 28px;
 }
 
-.header-contact {
+.header__header-contact {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -93,14 +93,14 @@
   color: var(--primary-text-color);
 }
 
-.contact-icon {
+.header__contact-icon {
   margin-right: 10px;
   &::before {
     fill: currentColor;
   }
 }
 
-.contact-icon {
+.header__contact-icon {
   fill: currentColor;
   &:focus,
   &:hover {
