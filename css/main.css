@@ -690,7 +690,7 @@ body {
   margin-right: 93px;
 }
 
-.studio {
+.header__logo__studio {
   font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -960,7 +960,7 @@ body {
   color: var(--accent-color);
 }
 
-.footer-studio {
+.footer-header__logo__studio {
   color: var(--header-color);
 }
 
