@@ -827,7 +827,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
-.footer-header__logo__studio {
+.footer-studio {
   color: var(--header-color);
 }
 .contact-footer {
