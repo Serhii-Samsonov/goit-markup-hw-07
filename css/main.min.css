@@ -597,12 +597,6 @@ body {
   margin-right: 93px;
 }
 .header__logo__studio {
-  font-family: Raleway, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
 .header__nav-item__header-link {
