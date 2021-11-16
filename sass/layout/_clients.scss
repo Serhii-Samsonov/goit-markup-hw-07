@@ -20,14 +20,12 @@
 
 .clients-list {
   display: flex;
-}
-
-.clients-list .clients-box:nth-child(6n) {
-  margin-right: 0;
-}
-
-.clients-list .clients-box:nth-last-child(-n + 6) {
-  margin-bottom: 0;
+  & .clients-box:nth-child(6n) {
+    margin-right: 0;
+  }
+  & .clients-box:nth-last-child(-n + 6) {
+    margin-bottom: 0;
+  }
 }
 
 .clients-list .clients-box {

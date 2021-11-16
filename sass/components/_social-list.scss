@@ -21,10 +21,9 @@
     background: var(--accent-color);
     fill: var(--header-color);
   }
-}
-
-.list-icon-item:not(:last-child) {
-  margin-right: 10px;
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
 }
 
 .icon-bottom.icon {

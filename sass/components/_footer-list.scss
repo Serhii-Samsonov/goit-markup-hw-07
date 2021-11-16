@@ -32,18 +32,16 @@
   color: var(--primary-title-color);
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-}
-
-.footer-list-icon-item:not(:last-child) {
-  margin-right: 10px;
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+  & .link:hover,
+  & .link:focus {
+    background: var(--accent-color);
+  }
 }
 
 .footer-link-icon {
   fill: currentColor;
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-list-icon-item .link:hover,
-.footer-list-icon-item .link:focus {
-  background: var(--accent-color);
 }
